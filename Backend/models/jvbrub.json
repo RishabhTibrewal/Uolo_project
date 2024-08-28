@@ -1,0 +1,31 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 1,
+        "relation": "eq"
+      },
+      "max_score": 1,
+      "hits": [
+        {
+          "_index": "my_index",
+          "_type": "_doc",
+          "_id": "66c8664bd880f620e1bb9698",
+          "_score": 1,
+          "_source": {
+            "name": "he",
+            "email": "xyz@gmail.com",
+            "imageName": "dd64f89645a23de34670e96a4188ab62eec7e5d153bda42a8099ef1007e6091b",
+            "isDeleted": false
+          }
+        }
+      ]
+    }
+  }
